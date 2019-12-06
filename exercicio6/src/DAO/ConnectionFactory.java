@@ -12,9 +12,9 @@ import java.util.logging.Logger;
 public class ConnectionFactory {
 
     private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "";
-    private static final String USER = "";
-    private static final String PASS = "";
+    private static final String URL = "jdbc:mysql://localhost/exercio6";
+    private static final String USER = "root";
+    private static final String PASS = "root";
 
     public static Connection getConnection() {
         try {

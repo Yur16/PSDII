@@ -15,7 +15,7 @@ public class AlunoDAO {
         PreparedStatement stmt = null;
 
         try {
-            stmt = con.prepareStatement("INSERT INTO produto (descricao,qtd,preco)VALUES(?,?,?)");
+            stmt = con.prepareStatement("INSERT INTO Aluno (Nome, Curso, id)VALUES(Exemplo, curso, 1)");
             stmt.setString(1, a.getNome());
             stmt.setString(2, a.getCurso());
             stmt.setInt(3, a.getId());
